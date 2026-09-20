@@ -28,7 +28,7 @@ TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 # 2. LOAD EXCEL FILE
 # ============================================================
 
-EXCEL_PATH = r"C:\Users\HP\OneDrive\Desktop\telegram_bot\data\486M+ Apollo.io Database Sample Leads.xlsx"
+EXCEL_PATH = "data/486M+ Apollo.io Database Sample Leads.xlsx"
 
 df = pd.read_excel(EXCEL_PATH)
 
